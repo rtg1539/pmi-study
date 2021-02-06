@@ -35,7 +35,7 @@ function fn(caseCount) {
 
         // 얘가 조금 빠름
         const scores = new Array(studentsCount).fill(1).map((r) => r * Math.floor(Math.random() * 101) );
-        
+
         // 얘가 조금 느림
         // const scores = Array.from({ length: studentsCount }, () => Math.floor(Math.random() * 101));
 
